@@ -10,6 +10,7 @@ meta-description:The documentation page for the CI-Utils Common Lisp library.
 [![Appveyor Build status](https://ci.appveyor.com/api/projects/status/mm1swvm28hpp2oc5/branch/master?svg=true)](https://ci.appveyor.com/project/neil-lindquist/ci-utils/branch/master)
 [![Gitlab CI status](https://img.shields.io/gitlab/pipeline/neil-lindquist/CI-Utils.svg?logo=Gitlab)](https://gitlab.com/neil-lindquist/CI-Utils/pipelines)
 [![Bitbucket pipelines status](https://img.shields.io/bitbucket/pipelines/nlindqu1/ci-utils?logo=bitbucket)](https://bitbucket.org/nlindqu1/ci-utils/addon/pipelines/home#!/)
+[![Azure piplines status](https://img.shields.io/azure-devops/build/archer1mail/archer1mail/1?logo=Azure%20Pipelines)](https://dev.azure.com/archer1mail/archer1mail/_build?definitionId=1&_a=summary)
 
 CI-Utils is a set of utilities for working on continuous integration platforms, including a run script for the Fiveam test library.
 
