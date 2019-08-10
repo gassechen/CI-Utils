@@ -50,4 +50,5 @@ Finally, if the `COVERALLS` environmental variable is set, then `:COVERALLS` is 
 | Circle CI | `:CIRCLE-CI` |
 | Appveyor  | `:APPVEYOR`  |
 | GitLab CI | `:GITLAB-CI` |
-| Bitbucket Pipelines | `:bitbucket-pipelines` |
+| Bitbucket Pipelines | `:BITBUCKET-PIPELINES` |
+|   Azure Pipelines   |   `:AZURE-PIPELINES`   |
