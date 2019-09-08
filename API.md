@@ -16,7 +16,8 @@ Returns the current CI platform.  When on a non-ci platform, nil is returned.
 
 <a name="function-ci-utils:pull-request-p"></a>**FUNCTION** - PULL-REQUEST-P   
 Returns whether the build is for a pull/merge request.  Unknown and non-ci
-   platforms are considered to not be pull requests.
+   platforms are considered to not be pull requests.  A string containing the
+   pull request number is returned for pull requests
 
 <a name="function-ci-utils:branch"></a>**FUNCTION** - BRANCH   
 Returns the name of the branch the build is from, or `NIL` for unknown and
