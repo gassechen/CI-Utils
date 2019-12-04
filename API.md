@@ -8,6 +8,10 @@ meta-description: The API Documentation for the CI-UtilsCommon Lisp library.
 <br>
 ### <a name="package-ci-utils"></a>**PACKAGE** - CI-UTILS 
 
+<a name="function-ci-utils:build-id"></a>**FUNCTION** - BUILD-ID   
+Returns the build id for the given platform. `NIL` is returned on unsupported
+   platforms.
+
 <a name="function-ci-utils:cip"></a>**FUNCTION** - CIP   
 Whether lisp is running on a CI platform.
 
@@ -22,6 +26,10 @@ Returns whether the build is for a pull/merge request.  Unknown and non-ci
 <a name="function-ci-utils:branch"></a>**FUNCTION** - BRANCH   
 Returns the name of the branch the build is from, or `NIL` for unknown and
    non-ci platforms.
+
+<a name="function-ci-utils:commit-id"></a>**FUNCTION** - COMMIT-ID   
+Returns the ID of the current commit.  For git projects, this is the commit's
+   SHA. `NIL` is returned on unsupported platforms.
 
 <a name="function-ci-utils:build-dir"></a>**FUNCTION** - BUILD-DIR   
 Returns the directory that the code was copied into.  When not on a known CI
