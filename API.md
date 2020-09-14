@@ -18,6 +18,7 @@ Whether lisp is running on a CI platform.
 <a name="function-ci-utils:platform"></a>**FUNCTION** - PLATFORM   
 Returns the current CI platform.  When on a non-ci platform, nil is returned.
 The following is the symbols for supported platforms
+
 |      Platform       |       Symbol Name      |
 |:-------------------:|:----------------------:|
 |      Travis CI      |      `:TRAVIS-CI`      |
@@ -28,6 +29,7 @@ The following is the symbols for supported platforms
 |   Azure Pipelines   |   `:AZURE-PIPELINES`   |
 |    Github Actions   |    `:GITHUB-ACTIONS`   |
 | unknown ci systems  |      `:UNKNOWN-CI`     |
+
 
 <a name="function-ci-utils:pull-request-p"></a>**FUNCTION** - PULL-REQUEST-P   
 Returns whether the build is for a pull/merge request.  Unknown and non-ci
